@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>QueePan - Inicio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/principal/Logo-Tipo.ico" type="image/x-icon">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Estilos personalizados -->
+  <style>
+    body {
+      background-color: #FFF8F1;
+      color: #4a4a4a;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    header {
+ /*     background: linear-gradient(90deg, #FBC700, #F1914A);*/
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    header img {
+      height: 200px;
+    }
+
+    h1, h2, h3, .card-title {
+      color: #9F4D1A; /* Color marrón corporativo */
+    }
+
+    .card {
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      background-color: #FFFFFF;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+
+ .btn-color {
+  background-color: #F1914A;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+    .btn-color:hover {
+      opacity: 0.9;
+    }
+
+    a {
+      color: #F1914A;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: #FFF2E0;
+      color: #623815;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Banner / Encabezado -->
+  <header>
+    <img src="img/principal/Banner-removebg-preview.png" alt="QueePan Logo">
+  </header>
+
+  <div class="container py-5">   
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <!-- PANES -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/principal/panes.jpg" class="card-img-top" alt="Panes">
+          <div class="card-body text-center">
+            <h5 class="card-title">Panes</h5>
+            <p class="card-text">Explora nuestras variedades de pan tradicionales y artesanales.</p>
+            <a href="html/panes.html" class="btn btn-color">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- GALLETAS -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/principal/galletas.jpg" class="card-img-top" alt="Galletas">
+          <div class="card-body text-center">
+            <h5 class="card-title">Galletas</h5>
+            <p class="card-text">Deliciosas galletas horneadas con los mejores ingredientes.</p>
+            <a href="html/galletas.html" class="btn btn-color">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PONQUÉS -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/principal/ponques.jpg" class="card-img-top" alt="Ponqués">
+          <div class="card-body text-center">
+            <h5 class="card-title">Ponqués</h5>
+            <p class="card-text">Esponjosos y sabrosos ponqués para cualquier ocasión.</p>
+            <a href="html/ponques.html" class="btn btn-color">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- VARIEDADES -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/principal/variedades.jfif" class="card-img-top" alt="Variedades">
+          <div class="card-body text-center">
+            <h5 class="card-title">Variedades</h5>
+            <p class="card-text">Otros productos deliciosos que complementan tu mesa.</p>
+            <a href="html/variedades.html" class="btn btn-color">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 QueePan - Siempre Fresco y Nutritivo
+  </footer>
+
+</body>
+</html>
