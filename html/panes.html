@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Galería de Panes</title>
+  <!-- Favicon -->
+  <link rel="icon" href="../img/principal/Logo-Tipo.ico" type="image/x-icon">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Estilos personalizados -->
+  <style>
+    body {
+      background-color: #FFF8F1;
+      color: #4a4a4a;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    header {
+      /*     background: linear-gradient(90deg, #FBC700, #F1914A);*/
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    header img {
+      height: 200px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #9F4D1A;
+    }
+
+    .card {
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      background-color: white;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card-img-top {
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .btn-color {
+      background-color: #F1914A;
+      border: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .btn-color:hover {
+      opacity: 0.9;
+    }
+
+    a {
+      color: #F1914A;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: #FFF2E0;
+      color: #623815;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+
+
+<body>
+  <!-- Banner / Encabezado -->
+  <header>
+    <img src="../img/principal/Banner-removebg-preview.png" alt="QueePan Logo">
+  </header>
+  <!-- Botón de regreso -->
+  <div class="text-start px-4">
+    <a href="../index.html" class="btn btn-color mb-3">&larr; Volver al inicio</a>
+  </div>
+
+  <div class="container py-4">
+    <h1 class="text-center mb-4" style="color:#5D4037;">Galería de Panes</h1>
+    <div class="accordion" id="productAccordion"></div>
+  </div>
+
+  <script>
+    const formatos = ["vertical", "tabular", "lineal"];
+    const accordion = document.getElementById("productAccordion");
+
+    fetch("../data/panes.json")
+      .then(res => res.json())
+      .then(productos => {
+        // Agrupar por categoría
+        const categorias = {};
+        productos.forEach(p => {
+          const cat = p.categoria || "Otros";
+          if (!categorias[cat]) categorias[cat] = [];
+          categorias[cat].push(p);
+        });
+
+        // Crear acordeón por categoría  <img src="${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
+        Object.entries(categorias).forEach(([categoria, productos], index) => {
+          const collapseId = `collapse-${index}`;
+          const cardHTML = productos.map(producto => `
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+               
+                <div class="card-body text-center">
+                  <h5 class="card-title">${producto.nombre}</h5>
+                  <p>Selecciona un formato:</p>
+                  <div class="d-grid gap-2">
+                    ${formatos.map(f =>
+            `<a href="detallePanes.html?id=${producto.id}&formato=${f}" class="btn btn-color">${f.toUpperCase()}</a>`
+          ).join("")}
+                  </div>
+                </div>
+              </div>
+            </div>
+          `).join("");
+
+          const grupo = document.createElement("div");
+          grupo.className = "accordion-item";
+          grupo.innerHTML = `
+            <h2 class="accordion-header" id="heading-${index}">
+              <button class="accordion-button ${index > 0 ? 'collapsed' : ''}" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="${index === 0}" aria-controls="${collapseId}">
+                ${categoria}
+              </button>
+            </h2>
+            <div id="${collapseId}" class="accordion-collapse collapse ${index === 0 ? 'show' : ''}" aria-labelledby="heading-${index}" data-bs-parent="#productAccordion">
+              <div class="accordion-body">
+                <div class="row">${cardHTML}</div>
+              </div>
+            </div>
+          `;
+          accordion.appendChild(grupo);
+        });
+      })
+      .catch(error => {
+        console.error("Error cargando productos:", error);
+        accordion.innerHTML = "<p class='text-danger'>No se pudo cargar la galería.</p>";
+      });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
