@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "nombre": "TN. MERENGUE",
+    "imagen": "../img/panes/producto_nuevo.png",
+    "categoria": "Variedades",
+    "formatos": {
+      "vertical": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": {
+          "Nutriente": [
+            "",
+            "Cantidad por porción"
+          ],
+          "Valor energético": [
+            "",
+            "155 kcal"
+          ],
+          "Grasa total": [
+            "",
+            "0.2 g"
+          ],
+          "- Grasa saturada": [
+            "",
+            "0.0 g"
+          ],
+          "Carbohidratos totales": [
+            "",
+            "37 g"
+          ],
+          "- Azúcares": [
+            "",
+            "28 g"
+          ],
+          "Fibra dietaria": [
+            "",
+            "0.0 g"
+          ],
+          "Proteína": [
+            "",
+            "2.6 g"
+          ],
+          "Sodio": [
+            "",
+            "110 mg"
+          ]
+        }
+      },
+      "tabular": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": [
+          {
+            "nombre": "Energía",
+            "100g": "kcal",
+            "porcion": "155"
+          },
+          {
+            "nombre": "Grasa total",
+            "100g": "g",
+            "porcion": "0.2"
+          },
+          {
+            "nombre": "- Grasa saturada",
+            "100g": "g",
+            "porcion": "0.0"
+          },
+          {
+            "nombre": "Carbohidratos totales",
+            "100g": "g",
+            "porcion": "37"
+          },
+          {
+            "nombre": "- Azúcares",
+            "100g": "g",
+            "porcion": "28"
+          },
+          {
+            "nombre": "Fibra dietaria",
+            "100g": "g",
+            "porcion": "0.0"
+          },
+          {
+            "nombre": "Proteína",
+            "100g": "g",
+            "porcion": "2.6"
+          },
+          {
+            "nombre": "Sodio",
+            "100g": "mg",
+            "porcion": "110"
+          }
+        ]
+      },
+      "lineal": {
+        "porcion": "155 kcal · 0.2 g grasa (0.0 g saturada) · 37 g carbohidratos (28 g azúcares) · 0.0 g fibra · 2.6 g proteína · 110 mg sodio"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "nombre": "TN. PASTELITOS DE HOJALDRE",
+    "imagen": "../img/panes/producto_nuevo.png",
+    "categoria": "Variedades",
+    "formatos": {
+      "vertical": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": {
+          "Nutriente": [
+            "",
+            "Cantidad por porción"
+          ],
+          "Valor energético": [
+            "",
+            "178 kcal"
+          ],
+          "Grasa total": [
+            "",
+            "6.3 g"
+          ],
+          "- Grasa saturada": [
+            "",
+            "2.0 g"
+          ],
+          "Carbohidratos totales": [
+            "",
+            "26 g"
+          ],
+          "- Azúcares": [
+            "",
+            "11 g"
+          ],
+          "Fibra dietaria": [
+            "",
+            "1.1 g"
+          ],
+          "Proteína": [
+            "",
+            "2.0 g"
+          ],
+          "Sodio": [
+            "",
+            "95 mg"
+          ]
+        }
+      },
+      "tabular": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": [
+          {
+            "nombre": "Energía",
+            "100g": "kcal",
+            "porcion": "178"
+          },
+          {
+            "nombre": "Grasa total",
+            "100g": "g",
+            "porcion": "6.3"
+          },
+          {
+            "nombre": "- Grasa saturada",
+            "100g": "g",
+            "porcion": "2.0"
+          },
+          {
+            "nombre": "Carbohidratos totales",
+            "100g": "g",
+            "porcion": "26"
+          },
+          {
+            "nombre": "- Azúcares",
+            "100g": "g",
+            "porcion": "11"
+          },
+          {
+            "nombre": "Fibra dietaria",
+            "100g": "g",
+            "porcion": "1.1"
+          },
+          {
+            "nombre": "Proteína",
+            "100g": "g",
+            "porcion": "2.0"
+          },
+          {
+            "nombre": "Sodio",
+            "100g": "mg",
+            "porcion": "95"
+          }
+        ]
+      },
+      "lineal": {
+        "porcion": "178 kcal · 6.3 g grasa (2.0 g saturada) · 26 g carbohidratos (11 g azúcares) · 1.1 g fibra · 2.0 g proteína · 95 mg sodio"
+      }
+    }
+  }
+]

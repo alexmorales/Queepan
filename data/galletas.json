@@ -1,0 +1,596 @@
+[
+  {
+    "id": 1,
+    "nombre": "GALLETA DE QUESO",
+    "imagen": "../img/panes/producto_nuevo.png",
+    "categoria": "GALLETA",
+    "formatos": {
+      "vertical": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": {
+          "Nutriente": [
+            "",
+            "Cantidad por porción"
+          ],
+          "Valor energético": [
+            "",
+            "185 kcal"
+          ],
+          "Grasa total": [
+            "",
+            "5.8 g"
+          ],
+          "- Grasa saturada": [
+            "",
+            "1.8 g"
+          ],
+          "Carbohidratos totales": [
+            "",
+            "29 g"
+          ],
+          "- Azúcares": [
+            "",
+            "14 g"
+          ],
+          "Fibra dietaria": [
+            "",
+            "1.3 g"
+          ],
+          "Proteína": [
+            "",
+            "2.5 g"
+          ],
+          "Sodio": [
+            "",
+            "102 mg"
+          ]
+        }
+      },
+      "tabular": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": [
+          {
+            "nombre": "Energía",
+            "100g": "kcal",
+            "porcion": "185"
+          },
+          {
+            "nombre": "Grasa total",
+            "100g": "g",
+            "porcion": "5.8"
+          },
+          {
+            "nombre": "- Grasa saturada",
+            "100g": "g",
+            "porcion": "1.8"
+          },
+          {
+            "nombre": "Carbohidratos totales",
+            "100g": "g",
+            "porcion": "29"
+          },
+          {
+            "nombre": "- Azúcares",
+            "100g": "g",
+            "porcion": "14"
+          },
+          {
+            "nombre": "Fibra dietaria",
+            "100g": "g",
+            "porcion": "1.3"
+          },
+          {
+            "nombre": "Proteína",
+            "100g": "g",
+            "porcion": "2.5"
+          },
+          {
+            "nombre": "Sodio",
+            "100g": "mg",
+            "porcion": "102"
+          }
+        ]
+      },
+      "lineal": {       
+        "porcion": "180 kcal · 5.4 g grasa (1.7 g saturada) · 29 g carbohidratos (14 g azúcares) · 1.2 g fibra · 2.2 g proteína · 98 mg sodio"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "nombre": "GALLETA DE SODA, POLVOROSA, CHELITA, PULVERIZADA, DE LIMON, CHEPACORINA_",
+    "imagen": "../img/panes/producto_nuevo.png",
+    "categoria": "GALLETA",
+    "formatos": {
+      "vertical": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": {
+          "Nutriente": [
+            "",
+            "Cantidad por porción"
+          ],
+          "Valor energético": [
+            "",
+            "175 kcal"
+          ],
+          "Grasa total": [
+            "",
+            "5.4 g"
+          ],
+          "- Grasa saturada": [
+            "",
+            "1.7 g"
+          ],
+          "Carbohidratos totales": [
+            "",
+            "27 g"
+          ],
+          "- Azúcares": [
+            "",
+            "12 g"
+          ],
+          "Fibra dietaria": [
+            "",
+            "1.2 g"
+          ],
+          "Proteína": [
+            "",
+            "2.2 g"
+          ],
+          "Sodio": [
+            "",
+            "96 mg"
+          ]
+        }
+      },
+      "tabular": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": [
+          {
+            "nombre": "Energía",
+            "100g": "kcal",
+            "porcion": "175"
+          },
+          {
+            "nombre": "Grasa total",
+            "100g": "g",
+            "porcion": "5.4"
+          },
+          {
+            "nombre": "- Grasa saturada",
+            "100g": "g",
+            "porcion": "1.7"
+          },
+          {
+            "nombre": "Carbohidratos totales",
+            "100g": "g",
+            "porcion": "27"
+          },
+          {
+            "nombre": "- Azúcares",
+            "100g": "g",
+            "porcion": "12"
+          },
+          {
+            "nombre": "Fibra dietaria",
+            "100g": "g",
+            "porcion": "1.2"
+          },
+          {
+            "nombre": "Proteína",
+            "100g": "g",
+            "porcion": "2.2"
+          },
+          {
+            "nombre": "Sodio",
+            "100g": "mg",
+            "porcion": "96"
+          }
+        ]
+      },
+      "lineal": {
+        "porcion": "175 kcal · 5.4 g grasa (1.7 g saturada) · 27 g carbohidratos (12 g azúcares) · 1.2 g fibra · 2.2 g proteína · 96 mg sodio"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "nombre": "GALLETA NEGRITA, GALLETA CUCA",
+    "imagen": "../img/panes/producto_nuevo.png",
+    "categoria": "GALLETA",
+    "formatos": {
+      "vertical": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": {
+          "Nutriente": [
+            "",
+            "Cantidad por porción"
+          ],
+          "Valor energético": [
+            "",
+            "180 kcal"
+          ],
+          "Grasa total": [
+            "",
+            "5.4 g"
+          ],
+          "- Grasa saturada": [
+            "",
+            "1.7 g"
+          ],
+          "Carbohidratos totales": [
+            "",
+            "29 g"
+          ],
+          "- Azúcares": [
+            "",
+            "14 g"
+          ],
+          "Fibra dietaria": [
+            "",
+            "1.2 g"
+          ],
+          "Proteína": [
+            "",
+            "2.2 g"
+          ],
+          "Sodio": [
+            "",
+            "98 mg"
+          ]
+        }
+      },
+      "tabular": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": [
+          {
+            "nombre": "Energía",
+            "100g": "kcal",
+            "porcion": "180"
+          },
+          {
+            "nombre": "Grasa total",
+            "100g": "g",
+            "porcion": "5.4"
+          },
+          {
+            "nombre": "- Grasa saturada",
+            "100g": "g",
+            "porcion": "1.7"
+          },
+          {
+            "nombre": "Carbohidratos totales",
+            "100g": "g",
+            "porcion": "29"
+          },
+          {
+            "nombre": "- Azúcares",
+            "100g": "g",
+            "porcion": "14"
+          },
+          {
+            "nombre": "Fibra dietaria",
+            "100g": "g",
+            "porcion": "1.2"
+          },
+          {
+            "nombre": "Proteína",
+            "100g": "g",
+            "porcion": "2.2"
+          },
+          {
+            "nombre": "Sodio",
+            "100g": "mg",
+            "porcion": "98"
+          }
+        ]
+      },
+      "lineal": {
+        "porcion": "180 kcal · 5.4 g grasa (1.7 g saturada) · 29 g carbohidratos (14 g azúcares) · 1.2 g fibra · 2.2 g proteína · 98 mg sodio"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "nombre": "GALLETA PUNTO ROJO, GALLETA DE BOCADILLO",
+    "imagen": "../img/panes/producto_nuevo.png",
+    "categoria": "GALLETA",
+    "formatos": {
+      "vertical": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": {
+          "Nutriente": [
+            "",
+            "Cantidad por porción"
+          ],
+          "Valor energético": [
+            "",
+            "185 kcal"
+          ],
+          "Grasa total": [
+            "",
+            "5.4 g"
+          ],
+          "- Grasa saturada": [
+            "",
+            "1.7 g"
+          ],
+          "Carbohidratos totales": [
+            "",
+            "30 g"
+          ],
+          "- Azúcares": [
+            "",
+            "15 g"
+          ],
+          "Fibra dietaria": [
+            "",
+            "1.3 g"
+          ],
+          "Proteína": [
+            "",
+            "2.1 g"
+          ],
+          "Sodio": [
+            "",
+            "100 mg"
+          ]
+        }
+      },
+      "tabular": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": [
+          {
+            "nombre": "Energía",
+            "100g": "kcal",
+            "porcion": "185"
+          },
+          {
+            "nombre": "Grasa total",
+            "100g": "g",
+            "porcion": "5.4"
+          },
+          {
+            "nombre": "- Grasa saturada",
+            "100g": "g",
+            "porcion": "1.7"
+          },
+          {
+            "nombre": "Carbohidratos totales",
+            "100g": "g",
+            "porcion": "30"
+          },
+          {
+            "nombre": "- Azúcares",
+            "100g": "g",
+            "porcion": "15"
+          },
+          {
+            "nombre": "Fibra dietaria",
+            "100g": "g",
+            "porcion": "1.3"
+          },
+          {
+            "nombre": "Proteína",
+            "100g": "g",
+            "porcion": "2.1"
+          },
+          {
+            "nombre": "Sodio",
+            "100g": "mg",
+            "porcion": "100"
+          }
+        ]
+      },
+      "lineal": {
+        "porcion": "185 kcal · 5.4 g grasa (1.7 g saturada) · 30 g carbohidratos (15 g azúcares) · 1.3 g fibra · 2.1 g proteína · 100 mg sodio"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "nombre": "GALLETA RIZADA",
+    "imagen": "../img/panes/producto_nuevo.png",
+    "categoria": "GALLETA",
+    "formatos": {
+      "vertical": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": {
+          "Nutriente": [
+            "",
+            "Cantidad por porción"
+          ],
+          "Valor energético": [
+            "",
+            "210 kcal"
+          ],
+          "Grasa total": [
+            "",
+            "9.8 g"
+          ],
+          "- Grasa saturada": [
+            "",
+            "3.2 g"
+          ],
+          "Carbohidratos totales": [
+            "",
+            "23 g"
+          ],
+          "- Azúcares": [
+            "",
+            "12 g"
+          ],
+          "Fibra dietaria": [
+            "",
+            "1.0 g"
+          ],
+          "Proteína": [
+            "",
+            "2.1 g"
+          ],
+          "Sodio": [
+            "",
+            "90 mg"
+          ]
+        }
+      },
+      "tabular": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": [
+          {
+            "nombre": "Energía",
+            "100g": "kcal",
+            "porcion": "210"
+          },
+          {
+            "nombre": "Grasa total",
+            "100g": "g",
+            "porcion": "9.8"
+          },
+          {
+            "nombre": "- Grasa saturada",
+            "100g": "g",
+            "porcion": "3.2"
+          },
+          {
+            "nombre": "Carbohidratos totales",
+            "100g": "g",
+            "porcion": "23"
+          },
+          {
+            "nombre": "- Azúcares",
+            "100g": "g",
+            "porcion": "12"
+          },
+          {
+            "nombre": "Fibra dietaria",
+            "100g": "g",
+            "porcion": "1.0"
+          },
+          {
+            "nombre": "Proteína",
+            "100g": "g",
+            "porcion": "2.1"
+          },
+          {
+            "nombre": "Sodio",
+            "100g": "mg",
+            "porcion": "90"
+          }
+        ]
+      },
+      "lineal": {
+        "porcion": "210 kcal · 9.8 g grasa (3.2 g saturada) · 23 g carbohidratos (12 g azúcares) · 1.0 g fibra · 2.1 g proteína · 90 mg sodio"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "nombre": "GALLETA YOYO",
+    "imagen": "../img/panes/producto_nuevo.png",
+    "categoria": "GALLETA",
+    "formatos": {
+      "vertical": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": {
+          "Nutriente": [
+            "",
+            "Cantidad por porción"
+          ],
+          "Valor energético": [
+            "",
+            "188 kcal"
+          ],
+          "Grasa total": [
+            "",
+            "5.6 g"
+          ],
+          "- Grasa saturada": [
+            "",
+            "2.0 g"
+          ],
+          "Carbohidratos totales": [
+            "",
+            "28 g"
+          ],
+          "- Azúcares": [
+            "",
+            "13 g"
+          ],
+          "Fibra dietaria": [
+            "",
+            "1.3 g"
+          ],
+          "Proteína": [
+            "",
+            "2.4 g"
+          ],
+          "Sodio": [
+            "",
+            "98 mg"
+          ]
+        }
+      },
+      "tabular": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": [
+          {
+            "nombre": "Energía",
+            "100g": "kcal",
+            "porcion": "188"
+          },
+          {
+            "nombre": "Grasa total",
+            "100g": "g",
+            "porcion": "5.6"
+          },
+          {
+            "nombre": "- Grasa saturada",
+            "100g": "g",
+            "porcion": "2.0"
+          },
+          {
+            "nombre": "Carbohidratos totales",
+            "100g": "g",
+            "porcion": "28"
+          },
+          {
+            "nombre": "- Azúcares",
+            "100g": "g",
+            "porcion": "13"
+          },
+          {
+            "nombre": "Fibra dietaria",
+            "100g": "g",
+            "porcion": "1.3"
+          },
+          {
+            "nombre": "Proteína",
+            "100g": "g",
+            "porcion": "2.4"
+          },
+          {
+            "nombre": "Sodio",
+            "100g": "mg",
+            "porcion": "98"
+          }
+        ]
+      },
+      "lineal": {
+        "porcion": "188 kcal · 5.6 g grasa (2.0 g saturada) · 28 g carbohidratos (13 g azúcares) · 1.3 g fibra · 2.4 g proteína · 98 mg sodio"
+      }
+    }
+  }
+]

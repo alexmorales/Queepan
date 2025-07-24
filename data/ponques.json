@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "nombre": "TN. PONQUESITO, TORTAS",
+    "imagen": "../img/panes/producto_nuevo.png",
+    "categoria": "Panes",
+    "formatos": {
+      "vertical": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": {
+          "Nutriente": [
+            "",
+            "Cantidad por porción"
+          ],
+          "Valor energético": [
+            "",
+            "200 kcal"
+          ],
+          "Grasa total": [
+            "",
+            "8.5 g"
+          ],
+          "- Grasa saturada": [
+            "",
+            "2.1 g"
+          ],
+          "Carbohidratos totales": [
+            "",
+            "26 g"
+          ],
+          "- Azúcares": [
+            "",
+            "13 g"
+          ],
+          "Fibra dietaria": [
+            "",
+            "1.1 g"
+          ],
+          "Proteína": [
+            "",
+            "2.3 g"
+          ],
+          "Sodio": [
+            "",
+            "110 mg"
+          ]
+        }
+      },
+      "tabular": {
+        "porcion": "",
+        "porciones_envase": "",
+        "valores": [
+          {
+            "nombre": "Energía",
+            "100g": "kcal",
+            "porcion": "200"
+          },
+          {
+            "nombre": "Grasa total",
+            "100g": "g",
+            "porcion": "8.5"
+          },
+          {
+            "nombre": "- Grasa saturada",
+            "100g": "g",
+            "porcion": "2.1"
+          },
+          {
+            "nombre": "Carbohidratos totales",
+            "100g": "g",
+            "porcion": "26"
+          },
+          {
+            "nombre": "- Azúcares",
+            "100g": "g",
+            "porcion": "13"
+          },
+          {
+            "nombre": "Fibra dietaria",
+            "100g": "g",
+            "porcion": "1.1"
+          },
+          {
+            "nombre": "Proteína",
+            "100g": "g",
+            "porcion": "2.3"
+          },
+          {
+            "nombre": "Sodio",
+            "100g": "mg",
+            "porcion": "110"
+          }
+        ]
+      },
+      "lineal": {
+        "porcion": "200 kcal · 8.5 g grasa (2.1 g saturada) · 26 g carbohidratos (13 g azúcares) · 1.1 g fibra · 2.3 g proteína · 110 mg sodio"
+      }
+    }
+  }
+]
